@@ -1,6 +1,6 @@
 import { useQuery } from "react-query";
 import { useSetRecoilState } from "recoil";
-import { SummonerApi } from "../../api";
+import { SummonerApi } from "../../apis";
 import { SummonerKeys } from "../../constant/queryKeys";
 import { snackbarState } from "../../recoil/snackbarRecoil";
 import { SummonerType } from "../../types/summonerTypes";
