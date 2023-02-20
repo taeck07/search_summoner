@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { SummonerApi } from "../../api";
+import { SummonerApi } from "../../apis";
 import { SummonerKeys } from "../../constant/queryKeys";
 import { MatchDetailType } from "../../types/summonerTypes";
 
